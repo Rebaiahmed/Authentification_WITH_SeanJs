@@ -56,6 +56,7 @@ module.exports = function(sequelize, DataTypes) {
                 return jwt.sign({
                     _id:this.idUser,
                     username :this.username,
+                    email : this.email,
                     exp :parseInt(exp.getTime()/1000)
                 },'secret_User')
             }

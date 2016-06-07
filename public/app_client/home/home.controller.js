@@ -1,4 +1,5 @@
 angular
-    .module('meanApp').controller('homeCtrl',['$scope', function($scope){
+    .module('AuthenticationApp').controller('homeCtrl',['$scope','Auth','$location','$window',function($scope,Auth,$location,$window){
+
 
     }])
